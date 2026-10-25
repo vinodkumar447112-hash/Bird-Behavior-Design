@@ -1,49 +1,24 @@
-# Bird Behavior Design
-
-## Overview
-A simple Java project demonstrating object-oriented programming (OOP), interfaces, abstraction, and the Strategy Design Pattern through different bird behaviors.
-
-## Concepts Demonstrated
-- **Abstraction:** An abstract `Bird` class defines common properties and behaviors.
-- **Inheritance:** Different bird classes extend the `Bird` class.
-- **Interfaces:** Interfaces define flying and non-flying behavior contracts.
-- **Polymorphism:** Different implementations provide different flying behaviors.
-- **Strategy Design Pattern:** Flying behavior is separated from bird classes, allowing different flying strategies to be used.
-- **Dependency Inversion Principle (DIP):** Bird behavior is managed through abstractions rather than depending directly on specific implementations.
-
-## Project Structure
-```text
-Bird-Behavior-Design/
-└── Main.java
-```
-
-## Birds Implemented
-- **Crow:** Uses a flapping-based flying strategy.
-- **Sparrow:** Uses a flapping-based flying strategy.
-- **Pigeon:** Uses a separate flying strategy.
-- **Penguin:** Represents a non-flying bird.
-- **Ostrich:** Represents a non-flying bird.
-
-## Technologies Used
-- Java
-- Object-Oriented Programming
-- Strategy Design Pattern
-
-## How to Run
-
-1. Install the Java Development Kit (JDK).
-2. Open a terminal in the project directory.
-3. Compile the program:
-
-   ```bash
-   javac Main.java
-   ```
-
-4. Run the program:
-
-   ```bash
-   java Main
-   ```
-
-## Learning Objective
-This project demonstrates how to separate behavior from the classes that use it, making code easier to maintain, extend, and reuse.
+Bird Behavior Design 🐦
+Overview
+Bird Behavior Design is a Java project that demonstrates the application of SOLID design principles using object-oriented programming. The project focuses on designing bird behaviors such as flying, eating, and making sounds while keeping the code modular, reusable, and easy to maintain.
+SOLID Principles Applied
+Single Responsibility Principle (SRP): Separates bird characteristics from specific behavior implementations.
+Open/Closed Principle (OCP): Allows new bird types and behaviors to be added with minimal changes to existing code.
+Liskov Substitution Principle (LSP): Ensures bird subclasses can be used wherever their parent type is expected, without breaking expected behavior.
+Interface Segregation Principle (ISP): Uses focused interfaces for specific behaviors instead of forcing every bird to implement unnecessary methods.
+Dependency Inversion Principle (DIP): Makes bird classes depend on behavior abstractions rather than concrete implementations.
+Concepts Used
+Java classes and objects
+Abstract classes and interfaces
+Inheritance and polymorphism
+Composition and behavior-based design
+SOLID design principles
+Project Goal
+The goal of this project is to understand how SOLID principles help create flexible, maintainable, and extensible object-oriented software.
+Technologies Used
+Java
+Object-Oriented Programming (OOP)
+Learning Outcome
+This project helped me understand how to move beyond basic inheritance and design software using abstractions, interfaces, and reusable behavior implementations.
+---
+Author: Vinod Kumar
